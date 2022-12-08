@@ -64,7 +64,7 @@ class Selections extends React.Component {
       <View>
         <View style={styles.buttonPanel}>
           <View>
-            <Text style={styles.panelHeader}>Room Selection</Text>
+            <Text style={styles.panelHeader}>Digital Hub India</Text>
           </View>
           <View>
             { this.createRoomButtons(adjacentRooms) }

@@ -13,7 +13,7 @@ const { AudioModule } = NativeModules;
 class AudioPanel extends React.Component {
   playAmbientMusic() {
     AudioModule.playEnvironmental({
-      source: asset('audio/ambient.wav'),
+      source: asset('audio/intro.mp3'),
       volume: 0.3
     })
   }

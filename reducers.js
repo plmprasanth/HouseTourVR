@@ -1,12 +1,12 @@
 import { PICK_ROOM } from './constants';
 
 const startingRoom = {
-  name: 'House For Sale',
-  info: `
-    * 4 bedroom
-    * 3 bath
-    * Priced at $180,000`,
-  adjacentRooms: ['living_room']
+  name: 'Carrier HRDC',
+  // info: `
+  //   * 4 bedroom
+  //   * 3 bath
+  //   * Priced at $180,000`,
+  adjacentRooms: ['digital_floor']
 }
 
 export const roomReducer = (state = startingRoom, action={}) => {
